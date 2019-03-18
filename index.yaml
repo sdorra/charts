@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  host-path-provisioner:
+  - apiVersion: v1
+    appVersion: 0.0.3
+    created: 2019-03-18T21:44:03.293+01:00
+    description: Provisioner for host path volumens
+    digest: 3465c0768635237581acd24ac270621f4021aaa64398e7989853a14835c4c4cb
+    name: host-path-provisioner
+    urls:
+    - https://sdorra.github.io/charts/host-path-provisioner-0.1.0.tgz
+    version: 0.1.0
+  loki:
+  - appVersion: 0.0.1
+    created: 2019-03-18T21:44:03.293747+01:00
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: b0b0776baaa49cdff7e84633e9d84f329983faa321bf40a8db2d803f42d034d3
+    engine: gotpl
+    home: https://grafana.com/loki
+    icon: https://github.com/grafana/loki/raw/master/docs/logo.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    urls:
+    - https://sdorra.github.io/charts/loki-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-03-18T21:44:03.291003+01:00
