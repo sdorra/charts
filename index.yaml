@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   host-path-provisioner:
   - apiVersion: v1
+    appVersion: 0.0.4
+    created: 2019-03-19T12:06:15.55346+01:00
+    description: Provisioner for host path volumens
+    digest: 3ae57c33caaddc092740b99651f5a2b896f4c575a6ff77b0a142cdc28ac0a9b8
+    name: host-path-provisioner
+    urls:
+    - https://sdorra.github.io/charts/host-path-provisioner-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
     appVersion: 0.0.3
-    created: 2019-03-19T11:19:57.557413+01:00
+    created: 2019-03-19T12:06:15.553167+01:00
     description: Provisioner for host path volumens
     digest: cadb7f6996b6fa61e7fcdba43d5982116031ca15f77d4bacdd3c6a1d5098d13e
     name: host-path-provisioner
@@ -12,7 +21,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.0.3
-    created: 2019-03-19T11:19:57.556635+01:00
+    created: 2019-03-19T12:06:15.552393+01:00
     description: Provisioner for host path volumens
     digest: 3465c0768635237581acd24ac270621f4021aaa64398e7989853a14835c4c4cb
     name: host-path-provisioner
@@ -21,7 +30,7 @@ entries:
     version: 0.1.0
   loki:
   - appVersion: 0.0.1
-    created: 2019-03-19T11:19:57.572514+01:00
+    created: 2019-03-19T12:06:15.573177+01:00
     description: 'Loki: like Prometheus, but for logs.'
     digest: b0b0776baaa49cdff7e84633e9d84f329983faa321bf40a8db2d803f42d034d3
     engine: gotpl
@@ -40,7 +49,7 @@ entries:
   unifi:
   - apiVersion: v1
     appVersion: 5.9.29
-    created: 2019-03-19T11:19:57.573978+01:00
+    created: 2019-03-19T12:06:15.575002+01:00
     description: Ubiquiti Network's Unifi Controller
     digest: 73edc0152fe5a99cc6239ad9c769678e59cc4cbf79b513b0b04412755679cc39
     home: https://github.com/jacobalberty/unifi-docker
@@ -59,4 +68,4 @@ entries:
     urls:
     - https://sdorra.github.io/charts/unifi-0.3.2.tgz
     version: 0.3.2
-generated: 2019-03-19T11:19:57.542872+01:00
+generated: 2019-03-19T12:06:15.544433+01:00
